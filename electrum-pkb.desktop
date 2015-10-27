@@ -1,0 +1,17 @@
+# If you want electrum to appear in a linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum-pkb.desktop
+
+[Desktop Entry]
+Comment=Lightweight ParkByte Client
+Exec=electrum-pkb %u
+GenericName[en_US]=Electrum-PKB
+GenericName=Electrum-PKB
+Icon=electrum-pkb
+Name[en_US]=Electrum ParkByte Wallet
+Name=Electrum ParkByte Wallet
+Categories=Network;
+StartupNotify=false
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/parkbyte;
+
